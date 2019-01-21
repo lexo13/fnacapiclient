@@ -1,4 +1,6 @@
 {
+    "name": "FnacMarketplace/fnacapiclient",
+    "description": "FNAC Marketplace rest client",
     "require": {
         "zendframework/zend-http" : "2.3.2",
         "zendframework/zend-uri" : "2.3.2",
@@ -11,5 +13,18 @@
         "symfony/yaml" : "2.0.*",
         "twbs/bootstrap": "^3.3",
         "components/jquery": "^2.2"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "FNAC Marketplace",
+            "email": "dl-fd-api.mp@fnac.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "FnacMarketplace\\FnacApiClient\\": "src/"
+        }
     }
 }
