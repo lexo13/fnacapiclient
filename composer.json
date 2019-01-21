@@ -1,5 +1,5 @@
 {
-    "name": "FnacMarketplace/fnacapiclient",
+    "name": "lexo13/fnacapiclient",
     "description": "FNAC Marketplace rest client",
     "require": {
         "zendframework/zend-http" : "2.3.2",
